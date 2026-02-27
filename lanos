@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>라노스가구 테스트</title>
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      background: #f5f4f0;
+      font-family: 'Noto Sans KR', sans-serif;
+    }
+    .card {
+      text-align: center;
+      background: white;
+      padding: 48px 64px;
+      border-radius: 16px;
+      box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+    }
+    h1 { font-size: 28px; color: #1a1814; margin-bottom: 8px; }
+    p  { font-size: 14px; color: #9ca3af; }
+    .badge {
+      display: inline-block;
+      margin-top: 20px;
+      background: #a3e635;
+      color: #1a1814;
+      font-weight: 700;
+      font-size: 12px;
+      padding: 6px 16px;
+      border-radius: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>🪑 라노스가구</h1>
+    <p>GitHub Pages 배포 테스트 성공!</p>
+    <div class="badge">LANOS FURNITURE</div>
+  </div>
+</body>
+</html>
